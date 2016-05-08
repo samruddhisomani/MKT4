@@ -10,7 +10,17 @@
 
 ## Interpretation of Logit Coefficients
 
-We see that marital status has the largest impact on odds of responding: They are 22.83 times more likely to respond than unmarried people.  Men are roughly 8.57 times more likely to respond than females. Respondents to previous mailings similarly are 8.22 times more likely to respond. For each additional point of financial orientation, a person is 1.5 times more likely to respond. Likewise, for each additional household member, a person is 1.37 times more likely.   Lastly, people who own small businesses are 1.18 times more likely to respond. 
+We fitted a GLM model to the data, filtered coefficients by significance (p<0.05), and ranked coefficients by absolute value. Here are the top coefficients before exponentiating them back to original scale:
+
+![alt text](https://github.com/samruddhisomani/MKT4/blob/master/coef.png "Coefficients")
+
+To improve interpretability, we exponentiated these coefficients:
+
+![alt text](https://github.com/samruddhisomani/MKT4/blob/master/exp_coef.png "Exp Coefficients")
+
+### Interpretation
+
+We see that marital status has the largest impact on odds of responding: They are 22.83 times more likely to respond than unmarried people.  Men are roughly 8.57 times more likely to respond than females. Respondents to previous mailings similarly are 8.22 times more likely to respond. For each additional point of financial orientation, a person is 1.5 times more likely to respond. Likewise, for each additional household member, a person is 1.37 times more likely. Lastly, people who own small businesses are 1.18 times more likely to respond. 
 
 ## Validation on Holdout Data
 
