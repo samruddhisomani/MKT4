@@ -140,4 +140,4 @@ fmla = as.formula(paste("Resp ~ ", paste(fmla_comp, collapse= "+")))
 #bayesian variable selection
 m = spikeSlabGAM(formula=fmla, data=X, family="binomial")
 
-save.image('oops.Rdata')
+save.image('proj4.Rdata')
