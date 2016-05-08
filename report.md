@@ -8,7 +8,7 @@
   * Qijing Zhang
 
 
-## Interpretation of Logit Coefficients
+## Scoring Model
 
 We fitted a GLM model to the data, filtered coefficients by significance (p<0.05), and ranked coefficients by absolute value. Here are the top coefficients before exponentiating them back to original scale:
 
