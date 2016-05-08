@@ -1,12 +1,11 @@
-# Marketing Analytics Team Project 4
-# Bayesian Variable Selection and Customer Scoring
+# Marketing Analytics Team Project 4: Bayesian Variable Selection and Customer Scoring
 
 ### Team member:
-..* Samruddhi Somani
-..* Wenyue Shi
-..* Vivian Chu
-..* Reshma Sekar
-..* Qijing Zhang
+  * Samruddhi Somani
+  * Wenyue Shi
+  * Vivian Chu
+  * Reshma Sekar
+  * Qijing Zhang
 
 
 ## Interpretation of Logit Coefficients
